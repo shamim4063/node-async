@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body class="container">
+    <main>
+        <form id="pa-form" method="post" action="<%= acsUrl %>">
+            <input hidden name="PaReq" value="<%= PaReq %>">
+            <input hidden name="TermUrl" value="<%= TermUrl %>">
+            <input hidden name="MD" value="<%= MD %>">
+        </form>
+    </main>
+</body>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var b = document.getElementById("pa-form");
+        b && b.submit();
+    })
+</script>
+
+</html>
