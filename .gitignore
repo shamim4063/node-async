@@ -1,5 +1,6 @@
-node_modules
-loggs
+/node_modules
+/loggs
 npm-debug.log
 LICENSE
 .vscode
+package-lock.json
